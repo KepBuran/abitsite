@@ -1,20 +1,39 @@
 import React from 'react';
+import {Route, Routes} from "react-router-dom";
+
 import './styles/App.css';
-import './assets/fonts/BebasNeuePro/stylesheet.css'
+import './assets/fonts/BebasNeuePro/stylesheet.css';
+
 import NavbarComponent from "./components/NavbarComponent";
-import MainPageComponent from "./components/main/MainPageComponent";
+import MainPage from "./pages/MainPage";
 import FooterComponent from "./components/FooterComponent";
-import SliderComponent from "./components/slider/SliderComponent";
-import EduProgramComponent from "./components/eduPrograms/EduProgramComponent";
+import BackgroundImg from './assets/img/mainPage/Background.png';
+import ArticlesPage from "./pages/ArticlesPage";
+import {Paths} from "./config/Paths";
+import EduProgramPage from "./pages/EduProgramPage";
+import SuperHeroesPage from "./pages/SuperHeroesPage";
+import StudentCouncilPage from "./pages/StudentCouncilPage";
+
 
 function App() {
-  return (
-      <div className="App">
-          <NavbarComponent></NavbarComponent>
-          <MainPageComponent></MainPageComponent>
-          <FooterComponent></FooterComponent>
-      </div>
-  );
+    const divStyle = {
+        backgroundImage: 'url('+BackgroundImg+')',
+        // backgroundSize: '100% 100%',
+    };
+
+    return (
+        <div className="App" style={divStyle}>
+            <NavbarComponent></NavbarComponent>
+            <Routes>
+                <Route path={Paths.Main} element={<MainPage/>} />
+                <Route path={Paths.Articles} element={<ArticlesPage/>} />
+                <Route path={Paths.EduPrograms} element={<EduProgramPage/>} />
+                <Route path={Paths.SuperHeroes} element={<SuperHeroesPage/>} />
+                <Route path={Paths.StudentCouncil} element={<StudentCouncilPage/>} />
+            </Routes>
+            <FooterComponent></FooterComponent>
+        </div>
+    );
 }
 
 export default App;

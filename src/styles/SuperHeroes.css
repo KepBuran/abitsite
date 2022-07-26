@@ -1,0 +1,103 @@
+main {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    object-fit: fill;
+}
+
+h1 {
+    margin: 50px 0;
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+section {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.about-team-text{
+    margin: 20px 4% 0 4%;
+    line-height: 36px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.super-heroes {
+    width: 100%;
+    margin-top: 20px;;
+}
+
+.super-hero {
+    height: 280px;
+    border-radius: 10px;
+    background-color: #141414;
+    width: 18%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.super-hero-image {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 80%;
+    background-size: 100% auto;
+    object-fit: fill;
+}
+
+.super-hero-name {
+    margin-top: 15px;
+    margin-left: 14px;
+}
+
+
+.super-hero-link {
+    color: #ffffff;
+    font-size: 24px;
+    font-size: 1.25vw;
+    text-decoration: none;
+    transition: 0.1s ease-in color, 0.1s ease-in filter;
+}
+
+
+.super-hero-link:hover {
+    color: #ffdd02;
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+
+.join-heroes {
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 140px;
+}
+
+.join-heroes-text {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.join-heroes-link{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #141414;
+    border-radius: 100px;
+    width: 30%;
+    padding: 10px;
+
+    box-shadow: -5px 7px 4px rgba(0, 0, 0, 0.29), inset 0px 0px 33px #FFFFFF;
+    transition: 0.1s ease-in color, 0.2s ease-in box-shadow;
+}
+
+.join-heroes-link:hover {
+    color: #ffdd02;
+    box-shadow: -5px 7px 4px rgba(0, 0, 0, 0.29), inset 0px 0px 25px #FFFFFF;
+}

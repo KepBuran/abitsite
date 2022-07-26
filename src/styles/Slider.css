@@ -1,24 +1,36 @@
 .container-slider {
-    max-width: 700px;
-    height: 500px;
-    margin: 100px auto 0;
+    width: 90%;
+    height: 600px;
+    margin: 0px auto 60px auto;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
+
+
+button{
+    all:unset;
+}
+
 @media screen and (max-width: 700px){
     .container-slider {
         margin: 100px 10px 0;
     }
 }
 .slide {
-    width: 100%;
-    height: 100%;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    margin-left: 10%;
+    width: 80%;
+    height: 99%;
     position: absolute;
     opacity: 0;
     transition: opacity ease-in-out 0.4s;
+
 }
 .slide img {
+    border-radius: 20px;
+
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -28,11 +40,8 @@
 }
 
 .btn-slide {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: #f1f1f1;
-    border: 1px solid rgba(34, 34, 34, 0.287);
+    width: 48px;
+    height: 48px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -40,19 +49,21 @@
     cursor: pointer;
 }
 
+
 .btn-slide img {
-    width: 25px;
-    height: 25px;
+    width: 48px;
+    height: 48px;
     pointer-events: none;
 }
+
 .prev {
     top: 50%;
-    left: 20px;
+    left: 4vw;
     transform: translateY(-60%);
 }
 .next {
     top: 50%;
-    right: 20px;
+    right: 4vw;
     transform: translateY(-60%);
 }
 
@@ -68,7 +79,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 3px solid #f1f1f1;
+    border: 2px solid #f1f1f1;
     margin: 0 5px;
     background: #f1f1f1;
 }

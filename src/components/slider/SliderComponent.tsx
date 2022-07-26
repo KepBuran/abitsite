@@ -1,10 +1,17 @@
-import React, {useState} from 'react';
+import React, {FC, useState} from 'react';
 import '../../styles/Slider.css';
 import SliderButtonComponent from './SliderButtonComponent';
-import dataSlider from './dataSlider';
-import MainPageComponent from "../main/MainPageComponent";
+import {v4 as uuidv4} from "uuid";
 
-const SliderComponent = () => {
+interface SliderProps {
+    dataSlider: {
+        id: string,
+        url: string
+    }[]
+}
+
+
+const SliderComponent: FC<SliderProps> = ({dataSlider}) => {
 
     const [slideIndex, setSlideIndex] = useState(1)
 

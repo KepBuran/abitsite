@@ -7,3 +7,9 @@
     margin: 0;
 }
 
+.App{
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 40vh;
+}
+

@@ -1,19 +1,27 @@
 import React from 'react';
 import '../styles/Navbar.css'
-import SC_logo from "../assets/icons/SC_black_logo.png"
+import SC_logo from "../assets/icons/SC_black_logo.png";
+import { useLocation } from 'react-router-dom';
+
+import {Paths} from "../config/Paths";
 
 const NavbarComponent = () => {
+    const isActive = (currentPath: string, path: string) => {
+        return currentPath === path? ' header-active' : '';
+    }
+
+
     return (
         <nav>
             <ul>
                 <li>
                     <a href="#"><img className="icon-header" src={SC_logo} alt="IASALogo"/></a>
                 </li>
-                <li className="header-text header-active"> <a href="#">Головна</a> </li>
-                <li className="header-text"> <a href="#">Статті</a> </li>
-                <li className="header-text"> <a href="#">Освітні програми</a> </li>
-                <li className="header-text"> <a href="#">Супергерої</a> </li>
-                <li className="header-text"> <a href="#">Про СР</a> </li>
+                <li className={"header-text" + isActive(useLocation().pathname, Paths.Main)}> <a href={Paths.Main}>Головна</a> </li>
+                <li className={"header-text" + isActive(useLocation().pathname, Paths.Articles)}> <a href={Paths.Articles}>Статті</a> </li>
+                <li className={"header-text" + isActive(useLocation().pathname, Paths.EduPrograms)}> <a href={Paths.EduPrograms}>Освітні програми</a> </li>
+                <li className={"header-text" + isActive(useLocation().pathname, Paths.SuperHeroes)}> <a href={Paths.SuperHeroes}>Супергерої</a> </li>
+                <li className={"header-text" + isActive(useLocation().pathname, Paths.StudentCouncil)}> <a href={Paths.StudentCouncil}>Про СР</a> </li>
             </ul>
 
         </nav>

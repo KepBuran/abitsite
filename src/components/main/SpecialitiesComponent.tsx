@@ -5,7 +5,7 @@ import MMSA124_IMG from '../../assets/img/mainPage/124MMSA.png';
 import BackgroundImg from '../../assets/img/mainPage/Background.png';
 import FlipCardComponent from "./FlipCardComponent";
 
-import '../../styles/main/Specialities.css';
+import '../../styles/mainPage/Specialities.css';
 
 
 const SpecialitiesComponent = () => {
@@ -22,7 +22,7 @@ const SpecialitiesComponent = () => {
     };
 
     return (
-        <div className="specialties" style={divStyle}>
+        <div className="specialties">
             <FlipCardComponent image={SHI122_IMG} name={"122 ШІ"} description={descriptionSHI} url={urlSHI}></FlipCardComponent>
             <FlipCardComponent image={SP122_IMG} name={"122 СП"} description={descriptionSP} url={urlSP}></FlipCardComponent>
             <FlipCardComponent image={MMSA124_IMG} name={"124 ММСА"} description={descriptionMMSA} url={urlMMSA}></FlipCardComponent>
