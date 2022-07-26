@@ -10,11 +10,11 @@ import '../../styles/mainPage/Specialities.css';
 
 const SpecialitiesComponent = () => {
     const descriptionSHI: string = "бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла";
-    const urlSHI: string = "#";
+    const urlSHI: string = "/eduProgram";
     const descriptionSP: string = "бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла";
-    const urlSP: string = "#";
+    const urlSP: string = "/eduProgram";
     const descriptionMMSA: string = "бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла";
-    const urlMMSA: string = "#";
+    const urlMMSA: string = "/eduProgram";
 
     const divStyle = {
         backgroundImage: 'url('+BackgroundImg+')',

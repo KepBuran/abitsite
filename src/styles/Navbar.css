@@ -29,6 +29,8 @@ nav li.header-text {
     padding: 14px 17px;
     /*margin: 1% 0;*/
     margin: 20px 0;
+    transition: 0.2s background-color;
+    border-radius: 10px;
 }
 
 nav li a{
@@ -58,6 +60,7 @@ nav a.active-logo {
 
 nav li.header-text:hover{
     background-color: #efc703;
+    border-radius: 10px;
 }
 
 nav li.header-text:hover a{

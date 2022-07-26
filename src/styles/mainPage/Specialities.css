@@ -97,6 +97,8 @@ div.speciality {
     border-radius: 100px;
     background-color: #fdd200;
     box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 33px #FFFFFF;
+
+    transition: 0.2s linear background-color;
 }
 
 .flip-card-back .speciality-link-container:hover{
