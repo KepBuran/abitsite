@@ -1,0 +1,27 @@
+.react-slideshow-container {
+    margin: 80px auto;
+    width: 80%;
+}
+
+.react-slideshow-container button.default-nav {
+    border: 1px solid #000000;
+}
+
+.each-slide-effect > div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 800px;
+    width: 80%;
+}
+
+.each-slide-effect span {
+    color: #ffffff;
+    padding: 20px;
+    font-size: 200px;
+    text-align: center;
+}
+
+

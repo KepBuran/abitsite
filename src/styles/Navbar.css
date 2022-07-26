@@ -24,9 +24,11 @@ nav img{
 }
 
 nav li.header-text {
-    font-size: 24px;
-    padding: 1% 1% 1% 1%;
-    margin: 1% 0;
+    font-size: 36px;
+    /*padding: 1% 1% 1% 1%;*/
+    padding: 14px 17px;
+    /*margin: 1% 0;*/
+    margin: 20px 0;
 }
 
 nav li a{

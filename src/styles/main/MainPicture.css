@@ -1,0 +1,40 @@
+div.main-picture {
+    text-align: center;
+    position: relative;
+
+    margin: 80px auto;
+    width: 80%;
+    height: 600px;
+
+    object-fit: cover;
+    /*filter: blur(2px);*/
+    /*-webkit-filter: blur(2px);*/
+
+    border-radius: 20px;
+    border-width: 1px 1px 4px 1px ;
+    border-color: #000000;
+    border-style: solid;
+}
+
+.main-picture p.big-font{
+    font-size: calc(2*110px) ;
+}
+
+.main-picture p.medium-font{
+    font-size: calc(2*64px);
+}
+
+.vertical-center {
+    -webkit-text-stroke: 2px black;
+    padding: 60px;
+    color: #ffffff;
+    line-height: 220px;
+    font-weight: 700;
+    display: inline-block;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*-ms-transform: translate(-50%, -50%);*/
+    /*transform: translate(-50%, -50%);*/
+}
+
