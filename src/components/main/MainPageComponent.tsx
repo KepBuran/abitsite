@@ -1,5 +1,5 @@
 import React from 'react';
-import MainSliderComponent from './MainSliderComponent';
+import SliderComponent from '../slider/SliderComponent';
 import SpecialitiesComponent from "./SpecialitiesComponent";
 import MainPictureComponent from "./MainPictureComponent";
 
