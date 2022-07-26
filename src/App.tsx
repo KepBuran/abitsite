@@ -5,6 +5,7 @@ import NavbarComponent from "./components/NavbarComponent";
 import MainPageComponent from "./components/main/MainPageComponent";
 import FooterComponent from "./components/FooterComponent";
 import SliderComponent from "./components/slider/SliderComponent";
+import EduProgramComponent from "./components/eduPrograms/EduProgramComponent";
 
 function App() {
   return (
