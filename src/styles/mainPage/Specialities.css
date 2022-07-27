@@ -97,13 +97,13 @@ div.speciality {
     margin: auto;
     border-radius: 100px;
     background-color: #fdd200;
-    box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 33px #FFFFFF;
+    box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.25), inset 0 0 33px #FFFFFF;
 
     transition: 0.2s linear background-color, 0.2s ease-in box-shadow;
 }
 
 .flip-card-back .speciality-link-container:hover{
-    box-shadow: -1.5px 2px 2px rgba(0, 0, 0, 0.25), inset 0px 0px 25px #FFFFFF;
+    box-shadow: -1.5px 2px 2px rgba(0, 0, 0, 0.25), inset 0 0 25px #FFFFFF;
     background-color: #f8c800;
 }
 
@@ -115,6 +115,6 @@ div.speciality {
     font-weight: 700;
     color: #000000;
     font-size: 24px;
-    font-size: 1.1vw;
+    /*font-size: 1.1vw;*/
 }
 
