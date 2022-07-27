@@ -45,7 +45,7 @@ const ArticlesPage = () => {
 
 
     return (
-        <main style={{backgroundImage: `url(${BackgroundImg})`}}>
+        <main className="articles-page" style={{backgroundImage: `url(${BackgroundImg})`}}>
             <h1>СТАТТІ</h1>
             <div className="articles">
                 {dataArticles.map((article, index, arr) => {

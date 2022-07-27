@@ -13,7 +13,7 @@ const SuperHeroesPage = () => {
 
 
     return (
-        <main style={{backgroundImage: `url(${BackgroundImg})`}}>
+        <main className="heroes-page" style={{backgroundImage: `url(${BackgroundImg})`}}>
             <h1>СУПЕРГЕРОЇ</h1>
             <SliderComponent dataSlider={dataSliderSuperHeroes}></SliderComponent>
 
