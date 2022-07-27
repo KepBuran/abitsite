@@ -73,4 +73,11 @@ nav li.header-text:hover a{
     color: rgb(2, 2, 0);
 }
 
+.our-work {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 1000px;
+}
+
 
