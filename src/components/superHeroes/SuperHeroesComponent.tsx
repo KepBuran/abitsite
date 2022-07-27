@@ -1,5 +1,5 @@
 import React from 'react';
-import dataSuperHeroes from "../../content/dataSuperHeroes";
+import dataSuperHeroes from "../../data/dataSuperHeroes";
 
 const SuperHeroesComponent = () => {
     return (

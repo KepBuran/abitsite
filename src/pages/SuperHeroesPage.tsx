@@ -1,7 +1,7 @@
 import React from 'react';
 import SliderComponent from "../components/slider/SliderComponent";
 import '../styles/SuperHeroes.css'
-import dataSliderSuperHeroes from "../content/dataSliderSuperHeroes";
+import dataSliderSuperHeroes from "../data/dataSliderSuperHeroes";
 import SuperHeroesComponent from "../components/superHeroes/SuperHeroesComponent";
 import BackgroundImg from "../assets/img/superHeroesPage/Background.png"
 

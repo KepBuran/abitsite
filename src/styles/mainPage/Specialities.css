@@ -88,6 +88,7 @@ div.speciality {
 }
 
 .flip-card-back .speciality-link-container{
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,11 +99,12 @@ div.speciality {
     background-color: #fdd200;
     box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 33px #FFFFFF;
 
-    transition: 0.2s linear background-color;
+    transition: 0.2s linear background-color, 0.2s ease-in box-shadow;
 }
 
 .flip-card-back .speciality-link-container:hover{
-    background-color: #f1c602;
+    box-shadow: -1.5px 2px 2px rgba(0, 0, 0, 0.25), inset 0px 0px 25px #FFFFFF;
+    background-color: #f8c800;
 }
 
 .flip-card-back .speciality-link{

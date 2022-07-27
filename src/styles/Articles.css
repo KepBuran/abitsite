@@ -1,0 +1,219 @@
+main {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    object-fit: fill;
+}
+
+h1 {
+    margin: 50px 0;
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.articles {
+    margin-bottom: 120px;
+}
+
+.article-wrapper {
+    height: 400px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.article-start {
+    margin-bottom: 0px;
+    height: 430px;
+}
+
+
+.article {
+    position: relative;
+    height: 300px;
+    width: 534px;
+    border-radius: 20px;
+    filter: drop-shadow(-5px 4px 4px rgba(0, 0, 0, 0.25));
+    top: 5%
+}
+
+.article-first {
+    top: 0px;
+    float: right;
+    right: calc(-250px + 171px);
+}
+
+.article-left {
+    left: 171px;
+}
+
+.article-right {
+    float: right;
+    right: calc(-250px + 171px);
+}
+
+.article-image {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    transition: .5s ease;
+    background-size: 100% 100%;
+}
+
+.article:hover .article-image{
+}
+
+.article-text-wrapper{
+    background-color: rgba(253, 210, 0, 0.5);
+    width: 100%;
+    height: 300px;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.article-text{
+    box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 20px #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    background-color: #ffdd02;
+    color: white;
+    font-size: 32px;
+    padding: 16px 32px;
+    transition: 0.2s ease-in;
+}
+
+.article-text:hover{
+    box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 10px #FFFFFF;
+    background-color: #ffdd02;
+    color: #020200;
+
+}
+
+.article-text-wrapper:hover{
+    opacity: 1;
+}
+
+
+
+
+/*BACKGROUND*/
+
+.point {
+    z-index: 1;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #141414;
+}
+
+.point-right {
+    left: 220px;
+    top: 45%;
+    float: right;
+}
+
+.point-left {
+    top: 45%;
+    left: -220px;
+    float: left;
+}
+
+.point-right-start {
+    top: 35%;
+    left: 220px;
+    float: right;
+}
+
+.line {
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='20' stroke-dasharray='8, 10' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+    position: relative;
+    display: inline-block;
+    padding: 2px;
+}
+
+.top-line {
+    margin-left: 10px;
+    width: calc(100% - 155px);
+    top: -25px;
+    float: left;
+}
+
+.bottom-line-left {
+    width: calc(100% - 2*141px);
+    top: 95%;
+    right: 133px;
+}
+
+.bottom-line-right{
+    width: calc(100% - 2*141px);
+    top: 95%;
+    left: 145px;
+}
+
+.bottom-line-start-right {
+    width: calc(100% - 2*141px);
+    top: 355px;
+    left: 145px;
+}
+
+
+.oblique-right-top-line-start {
+    width: 217px;
+    top: 65px;
+    float: right;
+    left: 25px;
+    transform: rotate(60deg) ;
+}
+
+.oblique-right-down-line-start {
+    width: 217px;
+    top: 275px;
+    float: right;
+    left: 303px;
+    transform: rotate(-60deg) ;
+}
+
+.oblique-right-top-line {
+    width: 217px;
+    top: 92px;
+    float: right;
+    left: 25px;
+    transform: rotate(60deg) ;
+}
+
+.oblique-right-down-line {
+    width: 217px;
+    top: 299px;
+    float: right;
+    left: 305px;
+    transform: rotate(-60deg);
+}
+
+
+.oblique-left-top-line {
+    width: 217px;
+    top: 90px;
+    float: left;
+    right: 20px;
+    transform: rotate(-60deg) ;
+}
+
+.oblique-left-down-line {
+    width: 217px;
+    top: 300px;
+    float: left;
+    right: 300px;
+    transform: rotate(60deg) ;
+}
+

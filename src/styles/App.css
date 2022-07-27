@@ -8,6 +8,7 @@
 }
 
 .App{
+    margin-top: 160px;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 100% 40vh;
