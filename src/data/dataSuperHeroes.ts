@@ -36,7 +36,7 @@ const dataSuperHeroes = [
         contact: "https://t.me/sen4ello"
     },
     {
-        name: "Анастасія Мазур КІ-02",
+        name: "Анна Ліхачова КІ-02",
         imgUrl: SuperHero3,
         contact: "https://t.me/idgaf_a"
     },
