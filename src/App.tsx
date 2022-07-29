@@ -18,8 +18,15 @@ import StudentCouncilPage from "./pages/StudentCouncilPage";
 function App() {
     const divStyle = {
         backgroundImage: 'url('+BackgroundImg+')',
-        // backgroundSize: '100% 100%',
     };
+
+    // const routes = [
+    //     {path: Paths.Main, Component: MainPage},
+    //     {path: Paths.Articles Component: ArticlesPage},
+    // <Route path={Paths.EduPrograms} Component:<EduProgramPage/>} />
+    // <Route path={Paths.SuperHeroes} element={<SuperHeroesPage/>} />
+    // <Route path={Paths.StudentCouncil} element={<StudentCouncilPage/>} />
+    //]
 
     return (
         <div className="App" style={divStyle}>
