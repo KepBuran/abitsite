@@ -7,7 +7,7 @@ nav {
     padding: 0px 10px;
     box-shadow: 0px 3px 5px grey;
     position: fixed;
-    height: 110px;
+    height: 90px;
     width: 100%;
     top:0;
     z-index: 2;
@@ -34,7 +34,7 @@ nav li.header-text {
     /*padding: 1% 1% 1% 1%;*/
     padding: 14px 17px;
     /*margin: 1% 0;*/
-    margin: 20px 0;
+    margin: 10px 0;
     transition: 0.2s background-color;
     border-radius: 10px;
 }
