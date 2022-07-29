@@ -66,6 +66,7 @@ nav a.active-logo {
 
 nav li.header-text:hover{
     background-color: #efc703;
+    background-color: #ffdb33;
     border-radius: 10px;
 }
 

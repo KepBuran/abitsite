@@ -19,7 +19,7 @@ const StudentCouncilPage = () => {
 
     return (
         <main className="sc-page" style={{backgroundImage: `url(${BackgroundImg})`}}>
-            <h1>ПРО СР</h1>
+            <h1>СТУДРАДА ІПСА</h1>
             <div className="about-sc">
                 <div className="about-sc-text" >{aboutSC}</div>
                 <div className="about-sc-image" style={{backgroundImage: `url(${aboutSCImg})`}}> </div>

@@ -51,7 +51,7 @@ const NavbarComponent = () => {
                 <li className={"header-text" + isActive(useLocation().pathname, Paths.Articles)}> <a href={Paths.Articles}>Статті</a> </li>
                 <li className={"header-text" + isActive(useLocation().pathname, Paths.EduPrograms)}> <a href={Paths.EduPrograms}>Освітні програми</a> </li>
                 <li className={"header-text" + isActive(useLocation().pathname, Paths.SuperHeroes)}> <a href={Paths.SuperHeroes}>Супергерої</a> </li>
-                <li className={"header-text" + isActive(useLocation().pathname, Paths.StudentCouncil)}> <a href={Paths.StudentCouncil}>Про СР</a> </li>
+                <li className={"header-text" + isActive(useLocation().pathname, Paths.StudentCouncil)}> <a href={Paths.StudentCouncil}>Студрада</a> </li>
             </ul>
 
         </nav>
