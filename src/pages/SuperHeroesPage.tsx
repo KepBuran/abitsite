@@ -1,6 +1,6 @@
 import React from 'react';
 import SliderComponent from "../components/slider/SliderComponent";
-import '../styles/SuperHeroes.css'
+import '../styles/pages/SuperHeroes.css'
 import dataSliderSuperHeroes from "../data/dataSliderSuperHeroes";
 import SuperHeroesComponent from "../components/superHeroes/SuperHeroesComponent";
 import BackgroundImg from "../assets/img/superHeroesPage/Background.png"
@@ -19,14 +19,14 @@ const SuperHeroesPage = () => {
             <h1>СУПЕРГЕРОЇ</h1>
             <SliderComponent dataSlider={dataSliderSuperHeroes}></SliderComponent>
 
-            <section className="about-team-section">
+            <section className="about-team-section right-animation">
                 <h2>Про команду</h2>
                 <p className="about-team-text">{aboutTeam}</p>
             </section>
 
             <SuperHeroesComponent></SuperHeroesComponent>
 
-            <section className="join-heroes">
+            <section className="join-heroes right-animation">
                 <p className="join-heroes-text">Хочеш стати супергероєм?</p>
                 <a href={"https://t.me/sen4ello"} className="join-heroes-link">ТИЦЬ</a>
             </section>

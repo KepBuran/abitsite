@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/EduProgram.css'
+import '../../styles/pages/EduProgram.css'
 
 const EduProgramComponent = () => {
     return (

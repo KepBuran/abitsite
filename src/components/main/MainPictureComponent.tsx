@@ -1,7 +1,7 @@
 import React from 'react';
 
 import MainPicture from "../../assets/img/mainPage/Main1_blured.jpg";
-import '../../styles/mainPage/MainPicture.css';
+import '../../styles/pages/mainPage/MainPicture.css';
 
 
 const MainPictureComponent = () => {

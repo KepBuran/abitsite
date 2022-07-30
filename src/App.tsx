@@ -2,6 +2,7 @@ import React, {Component, useEffect} from 'react';
 import {BrowserRouter, NavLink, Route, Routes, useLocation} from "react-router-dom";
 
 import './styles/App.css';
+import './styles/Animations.css';
 import './assets/fonts/BebasNeuePro/stylesheet.css';
 
 import NavbarComponent from "./components/NavbarComponent";

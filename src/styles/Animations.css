@@ -1,0 +1,62 @@
+h1 {
+    animation-delay: 1.5s;
+    animation: 2s ease-in-out header-appear;
+}
+
+@keyframes header-appear {
+    from { opacity: 0; transform: translateY(-90px); }
+    to   { opacity: 1; transform: translateY(0px);  }
+}
+
+.right-animation {
+    animation-delay: 1.5s;
+    animation: 2s ease-in-out right-appear;
+}
+
+@keyframes right-appear {
+    from { opacity: 0; transform: translateX(-200px); }
+    to   { opacity: 1; transform: translateX(0px);  }
+}
+
+.left-animation {
+    animation-delay: 1.5s;
+    animation: 2s ease-in-out left-appear;
+}
+
+@keyframes left-appear {
+    from { opacity: 0; transform: translateX(200px); }
+    to   { opacity: 1; transform: translateX(0px);  }
+}
+
+.up-animation {
+    animation-delay: 1.5s;
+    animation: 2s ease-in-out up-appear;
+
+}
+
+@keyframes up-appear {
+    from { opacity: 0; transform: translateY(200px); }
+    to   { opacity: 1; transform: translateY(0px);  }
+}
+
+
+nav {
+    animation-delay: 1.5s;
+    animation: 2s ease-in-out navbar-appear;
+}
+
+@keyframes navbar-appear {
+    from { opacity: 0; transform: translateY(-90px); }
+    to   { opacity: 1; transform: translateY(0px);  }
+}
+
+
+.footer-license, .footer-icon {
+    animation-delay: 1.5s;
+    animation: 2s ease-in-out footer-appear;
+}
+
+@keyframes footer-appear {
+    from { opacity: 0; transform: translateY(90px); }
+    to   { opacity: 1; transform: translateY(0px);  }
+}

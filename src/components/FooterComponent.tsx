@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Footer.css'
+import '../styles/components/Footer.css'
 
 import abitChannelIcon from '../assets/icons/footer/abit-channel.png';
 import abitChatIcon from '../assets/icons/footer/abit-chat.png';

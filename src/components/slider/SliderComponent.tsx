@@ -1,5 +1,5 @@
 import React, {FC, useState} from 'react';
-import '../../styles/Slider.css';
+import '../../styles/components/Slider.css';
 import SliderButtonComponent from './SliderButtonComponent';
 import {v4 as uuidv4} from "uuid";
 
@@ -38,7 +38,7 @@ const SliderComponent: FC<SliderProps> = ({dataSlider}) => {
     }
 
     return (
-        <div className="container-slider">
+        <div className="container-slider right-animation" >
             {dataSlider.map((obj, index) => {
                 return (
                     <div

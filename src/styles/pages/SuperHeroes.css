@@ -12,6 +12,7 @@ h1 {
     text-align: center;
 }
 
+
 h2 {
     font-size: 64px;
 }
@@ -42,7 +43,12 @@ section {
     margin-right: 2%;
     margin-bottom: 2%;
     display: inline-block;
+    transition: 2s linear opacity ;
 }
+
+
+
+
 
 .super-hero-image {
     border-radius: 10px 10px 0 0;

@@ -7,7 +7,7 @@ import head5Img from "../../assets/img/studentCouncilPage/head5.jpg";
 
 const ScHeadsComponent = () => {
     return (
-        <section className="heads-sc">
+        <section className="heads-sc right-animation">
             <h2>Голови СР</h2>
             <div className="heads-sc-pictures">
                 <div className="head-sc-container head-sc-container-small head-sc-left"><div className="dummy-ratio"></div>  <div className="head-sc-img-small" style={{backgroundImage: `url(${head1Img})`}}> </div> <div className="head-sc-text-small"></div> </div>

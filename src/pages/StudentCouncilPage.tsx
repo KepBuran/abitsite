@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/StudentCouncil.css';
+import '../styles/pages/StudentCouncil.css';
 import aboutSCImg from '../assets/img/studentCouncilPage/aboutSC.jpg';
 
 import head1Img from '../assets/img/studentCouncilPage/head1.jpg';
@@ -23,13 +23,13 @@ const StudentCouncilPage = () => {
 
             <h1>СТУДРАДА ІПСА</h1>
             <section className="about-sc">
-                <div className="about-sc-text" >{aboutSC}</div>
-                <div className="about-sc-image" style={{backgroundImage: `url(${aboutSCImg})`}}> </div>
+                <div className="about-sc-text right-animation" >{aboutSC}</div>
+                <div className="about-sc-image left-animation" style={{backgroundImage: `url(${aboutSCImg})`}}> </div>
             </section>
 
             <SCHeadsComponent></SCHeadsComponent>
 
-            <section className="our-work">
+            <section className="our-work ">
                 <h2>Наша робота</h2>
                 <div className="gallery"></div>
             </section>

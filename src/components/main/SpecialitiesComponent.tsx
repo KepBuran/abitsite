@@ -5,7 +5,7 @@ import MMSA124_IMG from '../../assets/img/mainPage/124MMSA.png';
 import BackgroundImg from '../../assets/img/mainPage/Background.png';
 import FlipCardComponent from "./FlipCardComponent";
 
-import '../../styles/mainPage/Specialities.css';
+import '../../styles/pages/mainPage/Specialities.css';
 
 
 const SpecialitiesComponent = () => {

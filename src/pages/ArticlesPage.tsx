@@ -7,7 +7,7 @@ import articleLeftImg from "../assets/img/articlesPage/background/articleLeft.pn
 import articleRightEndImg from "../assets/img/articlesPage/background/articleEndRight.png";
 import articleLeftEndImg from "../assets/img/articlesPage/background/articleEndLeft.png";
 
-import '../styles/Articles.css';
+import '../styles/pages/Articles.css';
 import BackgroundImg from "../assets/img/articlesPage/Background.png";
 import ArticlesComponent from "../components/articles/ArticlesComponent";
 import { motion } from 'framer-motion';

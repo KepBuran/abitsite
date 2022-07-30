@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import '../styles/Navbar.css'
+import '../styles/components/Navbar.css'
 import SC_logo from "../assets/icons/SC_black_logo.png";
 import { useLocation } from 'react-router-dom';
 
