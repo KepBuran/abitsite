@@ -54,6 +54,8 @@ nav li a{
 
 nav li.header-active a{
     text-decoration: underline;
+    /*text-decoration-skip-ink: none;*/
+    text-underline-offset: 1px;
 }
 
 nav a.active-logo {
