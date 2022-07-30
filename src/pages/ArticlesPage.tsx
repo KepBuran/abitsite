@@ -9,62 +9,30 @@ import articleLeftEndImg from "../assets/img/articlesPage/background/articleEndL
 
 import '../styles/Articles.css';
 import BackgroundImg from "../assets/img/articlesPage/Background.png";
-
+import ArticlesComponent from "../components/articles/ArticlesComponent";
+import { motion } from 'framer-motion';
 
 const ArticlesPage = () => {
-    const articleBackground = (index: number, arr: any[]) => {
-        let className: string = "";
-        let direction: string = index % 2 ? "left" : "right";
-        let startComponents = null;
-        if (index === 0) {
-            className+="-start"
-            startComponents = (<>
-                <div className="point"></div>
-                <div className="line top-line"></div>
-            </>);
-        };
 
-        // if (index === arr.length-1)
-
-        return (
-            <>
-                {startComponents}
-                <div className={"line oblique-"+direction+"-top-line"+className}></div>
-                <div className={"point point-"+direction+className}></div>
-                <div className={"line oblique-"+direction+"-down-line"+className}></div>
-                <div className={"line bottom-line"+className+"-"+direction}></div>
-            </>
-        );
-    }
-
-    const articleClass = (index: number, arr: any[]) => {
-        let className: string = "article";
-        if (index === 0) return className+" article-first";
-        return index % 2 ? className+" article-left": className+" article-right";
-    }
 
 
     return (
         <main className="articles-page" style={{backgroundImage: `url(${BackgroundImg})`}}>
-            <h1>СТАТТІ</h1>
-            <div className="articles">
-                {dataArticles.map((article, index, arr) => {
-                    let articleClassName: string = articleClass(index, arr);
-                    return (
-                        <div className={"article-wrapper" + (index === 0 ? " article-start": "")} >
-                            {articleBackground(index, arr)}
-                            <div key={index} className={articleClassName}>
-                                <div className="article-image" style={{backgroundImage:`url(${article.imgUrl})`}}> </div>
-                                <div className="article-text-wrapper">
-                                    <a href={article.url} target="_blank" className="article-text">ЧИТАТИ</a>
-                                </div>
-                            </div>
-                        </div>
-                    )
-                })}
-            </div>
+            <ArticlesComponent></ArticlesComponent>
         </main>
     );
 };
 
 export default ArticlesPage;
+
+
+
+// <motion.main className="articles-page" style={{backgroundImage: `url(${BackgroundImg})`}}
+//       initial={{opacity: 0, x: -1000}}
+//       animate={{opacity: 1, x: 0}}
+//       exit={{opacity: 0, x: 1000, transition: {duration: 2}}}
+//       transition={{
+//           duration: 1,
+//           // ease: [0, 0.71, 0.2, 1.01]
+//       }}
+// >

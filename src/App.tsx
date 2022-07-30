@@ -1,5 +1,5 @@
-import React from 'react';
-import {Route, Routes} from "react-router-dom";
+import React, {Component, useEffect} from 'react';
+import {BrowserRouter, NavLink, Route, Routes, useLocation} from "react-router-dom";
 
 import './styles/App.css';
 import './assets/fonts/BebasNeuePro/stylesheet.css';
@@ -13,6 +13,7 @@ import {Paths} from "./config/Paths";
 import EduProgramPage from "./pages/EduProgramPage";
 import SuperHeroesPage from "./pages/SuperHeroesPage";
 import StudentCouncilPage from "./pages/StudentCouncilPage";
+import {AnimatePresence} from "framer-motion";
 
 
 function App() {
@@ -20,27 +21,33 @@ function App() {
         backgroundImage: 'url('+BackgroundImg+')',
     };
 
-    // const routes = [
-    //     {path: Paths.Main, Component: MainPage},
-    //     {path: Paths.Articles Component: ArticlesPage},
-    // <Route path={Paths.EduPrograms} Component:<EduProgramPage/>} />
-    // <Route path={Paths.SuperHeroes} element={<SuperHeroesPage/>} />
-    // <Route path={Paths.StudentCouncil} element={<StudentCouncilPage/>} />
-    //]
+    useEffect(() => {
+        setTimeout(() => {
+            document.getElementsByClassName("loader-wrapper")[0].classList.add('loader-hide');
+            setTimeout(() => {document.getElementsByClassName("loader-wrapper")[0].classList.add('loader-none')}, 500)
+        }, 1000);
+    })
+
+
+    const location = useLocation();
 
     return (
         <div className="App" style={divStyle}>
             <NavbarComponent></NavbarComponent>
-            <Routes>
-                <Route path={Paths.Main} element={<MainPage/>} />
-                <Route path={Paths.Articles} element={<ArticlesPage/>} />
-                <Route path={Paths.EduPrograms} element={<EduProgramPage/>} />
-                <Route path={Paths.SuperHeroes} element={<SuperHeroesPage/>} />
-                <Route path={Paths.StudentCouncil} element={<StudentCouncilPage/>} />
-            </Routes>
+            <AnimatePresence>
+                <Routes location={location} key={location.pathname}>
+                    <Route path={Paths.Main} element={<MainPage/>} />
+                    <Route path={Paths.Articles} element={<ArticlesPage/>} />
+                    <Route path={Paths.EduPrograms} element={<EduProgramPage/>} />
+                    <Route path={Paths.SuperHeroes} element={<SuperHeroesPage/>} />
+                    <Route path={Paths.StudentCouncil} element={<StudentCouncilPage/>} />
+                </Routes>
+            </AnimatePresence>
             <FooterComponent></FooterComponent>
         </div>
     );
 }
 
 export default App;
+
+

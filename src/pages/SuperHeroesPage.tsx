@@ -4,6 +4,7 @@ import '../styles/SuperHeroes.css'
 import dataSliderSuperHeroes from "../data/dataSliderSuperHeroes";
 import SuperHeroesComponent from "../components/superHeroes/SuperHeroesComponent";
 import BackgroundImg from "../assets/img/superHeroesPage/Background.png"
+import { motion } from 'framer-motion';
 
 const SuperHeroesPage = () => {
 
@@ -13,6 +14,7 @@ const SuperHeroesPage = () => {
 
 
     return (
+
         <main className="heroes-page" style={{backgroundImage: `url(${BackgroundImg})`}}>
             <h1>СУПЕРГЕРОЇ</h1>
             <SliderComponent dataSlider={dataSliderSuperHeroes}></SliderComponent>

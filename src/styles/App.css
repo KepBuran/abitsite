@@ -14,3 +14,26 @@
     background-size: 100% 40vh;
 }
 
+/*!* width *!*/
+/*::-webkit-scrollbar {*/
+/*    width: 20px;*/
+/*    border-radius: 50%;*/
+/*}*/
+
+/*!* Track *!*/
+/*::-webkit-scrollbar-track {*/
+/*    background: #FFED9A;*/
+/*    background: #FFFFFF;*/
+/*}*/
+
+/*!* Handle *!*/
+/*::-webkit-scrollbar-thumb {*/
+/*    background: #fdd200;*/
+/*    border-radius: 20px;*/
+/*}*/
+
+/*!* Handle on hover *!*/
+/*::-webkit-scrollbar-thumb:hover {*/
+/*    background: #ffdd20;*/
+
+/*}*/

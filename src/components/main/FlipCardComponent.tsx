@@ -9,6 +9,13 @@ interface FlipCardProps {
 }
 
 const FlipCardComponent: FC<FlipCardProps> = ({image, name, description, url}) => {
+
+    const buttonClick = (e: any) => {
+        e.target.classList.add("speciality-link-clicked");
+        setTimeout(() => {e.target.classList.remove("")}, 500);
+    }
+
+
     return (
         <div className="speciality">
             <h2 className="speciality-name">{name}</h2>
@@ -22,7 +29,7 @@ const FlipCardComponent: FC<FlipCardProps> = ({image, name, description, url}) =
                             <h3 className="header">Короткий опис</h3>
                             <p className="description">{description}</p>
                         </article>
-                        <div className="speciality-link-container">
+                        <div onClick={buttonClick} className="speciality-link-container">
                             <a className="speciality-link" href={url}>Освітня програма</a>
                         </div>
                     </div>

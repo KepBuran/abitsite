@@ -19,7 +19,6 @@ const NavbarComponent = () => {
         if (!navbar) return;
         if (typeof window !== 'undefined') {
             if (window.scrollY > lastScrollY) {
-                console.log("TEST1");
                 navbar.style.top = "-110px";
             } else {
                 navbar.style.top = "0";

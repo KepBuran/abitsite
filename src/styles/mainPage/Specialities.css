@@ -118,3 +118,8 @@ div.speciality {
     /*font-size: 1.1vw;*/
 }
 
+.speciality-link-container:hover .speciality-link-clicked {
+    box-shadow: none;
+    background-color: #f8c800;
+}
+
