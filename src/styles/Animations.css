@@ -60,3 +60,14 @@ nav {
     from { opacity: 0; transform: translateY(90px); }
     to   { opacity: 1; transform: translateY(0px);  }
 }
+
+
+.article-left {
+    animation-delay: 1.5s;
+    animation: 2s ease-in-out right-appear;
+}
+
+.article-right {
+    animation-delay: 1.5s;
+    animation: 2s ease-in-out left-appear;
+}
