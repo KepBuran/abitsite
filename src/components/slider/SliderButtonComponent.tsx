@@ -1,7 +1,7 @@
 import React, {FC} from "react";
 import '../../styles/components/Slider.css';
-import leftArrow from "../../assets/icons/slider/left-arrow.svg";
-import rightArrow from "../../assets/icons/slider/right-arrow.svg";
+import leftArrow from "../../assets/icons/slider/left-arrow2.svg";
+import rightArrow from "../../assets/icons/slider/right-arrow2.svg";
 import SliderComponent from "./SliderComponent";
 
 interface ButtonProps {

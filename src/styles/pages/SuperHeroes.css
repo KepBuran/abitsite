@@ -46,10 +46,6 @@ section {
     transition: 2s linear opacity ;
 }
 
-
-
-
-
 .super-hero-image {
     border-radius: 10px 10px 0 0;
     width: 100%;
@@ -60,7 +56,10 @@ section {
 }
 
 .super-hero-name {
-    margin-top: 15px;
+    position: relative;
+    top: 7%;
+    -ms-transform: translateY(-7%);
+    transform: translateY(-7%);
     margin-left: 14px;
 }
 
@@ -110,4 +109,35 @@ section {
 .join-heroes-link:hover {
     color: #ffdd02;
     box-shadow: -3px 4px 2px rgba(0, 0, 0, 0.29), inset 0px 0px 25px #FFFFFF;
+}
+
+@media screen and (max-width: 1600px){
+    .super-hero-link {
+        font-size: 1.5vw;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+    .super-hero {
+        width: 31%;
+        margin-right: 2.3%;
+    }
+
+    .super-hero-link {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .super-hero {
+        width: 45%;
+        margin-right: 5%;
+    }
+
+    .super-hero-link {
+        font-size: 3vw;
+    }
 }

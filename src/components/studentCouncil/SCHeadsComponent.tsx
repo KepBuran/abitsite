@@ -41,7 +41,7 @@ const ScHeadsComponent = () => {
         }
 
         return (<motion.div animate={{opacity: imgOpacity}} transition={{ease: "easeIn",duration: 0.5}} className={`head-sc-container head-sc-container${sizeClass} ${directionClass}`} >
-            <div className={`head-sc-img${sizeClass}`} style={{backgroundImage: `url(${dataHeads[index].imgUrl})`}} key={index} onClick={clickEvent}> </div>
+            <div className={`head-sc-img head-sc-img${sizeClass}`} style={{backgroundImage: `url(${dataHeads[index].imgUrl})`}} key={index} onClick={clickEvent}> </div>
         </motion.div>)
     }
 
@@ -68,12 +68,12 @@ const ScHeadsComponent = () => {
         newIndex = newIndex>dataHeads.length-1 ? newIndex-dataHeads.length : newIndex;
         newIndex = newIndex<0 ? newIndex+dataHeads.length : newIndex;
         setTextOpacity(0);
-        setImgOpacity(0.5);
+        setImgOpacity(0.3);
         setTimeout(() => {
             setImgOpacity(1);
             setTextOpacity(1);
             setIndex(newIndex);
-            }, 300);
+            }, 200);
 
     }
 

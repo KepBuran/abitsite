@@ -6,6 +6,7 @@ const SuperHeroesComponent = () => {
         console.log("SuperHeroes");
     })
 
+
     return (
         <section className="super-heroes-section up-animation">
             <h2>Супергерої</h2>
