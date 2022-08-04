@@ -44,7 +44,7 @@ const NavbarComponent = () => {
         <nav id="navbar">
             <ul>
                 <li>
-                    <a href="#"><img className="icon-header" src={SC_logo} alt="IASALogo"/></a>
+                    <a href="/"><img className="icon-header" src={SC_logo} alt="IASALogo"/></a>
                 </li>
                 <li className={"header-text" + isActive(useLocation().pathname, Paths.Main)}> <a href={Paths.Main}>Головна</a> </li>
                 <li className={"header-text" + isActive(useLocation().pathname, Paths.Articles)}> <a href={Paths.Articles}>Статті</a> </li>

@@ -15,6 +15,7 @@ import EduProgramPage from "./pages/EduProgramPage";
 import SuperHeroesPage from "./pages/SuperHeroesPage";
 import StudentCouncilPage from "./pages/StudentCouncilPage";
 import {AnimatePresence} from "framer-motion";
+import BackToTopComponent from "./components/BackToTopComponent";
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
                     <Route path={Paths.StudentCouncil} element={<StudentCouncilPage/>} />
                 </Routes>
             </AnimatePresence>
+            <BackToTopComponent></BackToTopComponent>
             <FooterComponent></FooterComponent>
         </div>
     );
