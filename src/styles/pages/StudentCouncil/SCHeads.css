@@ -16,6 +16,7 @@
 }
 
 .head-sc-container {
+    cursor: pointer;
     border-radius: 20px;
     position: relative;
     float: left;

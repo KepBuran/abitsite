@@ -13,6 +13,7 @@ const ScHeadsComponent = () => {
         let directionClass: string = "";
         let sizeClass: string = "";
         let clickEvent: () => void = () => {return};
+        let link = dataHeads[index].contact;
 
         switch (order) {
             case 0:
@@ -40,8 +41,10 @@ const ScHeadsComponent = () => {
                 sizeClass = "-small";
         }
 
+        let imgDiv = <div className={`head-sc-img head-sc-img${sizeClass}`} style={{backgroundImage: `url(${dataHeads[index].imgUrl})`}} key={index} onClick={clickEvent}> </div>;
+
         return (<motion.div animate={{opacity: imgOpacity}} transition={{ease: "easeIn",duration: 0.5}} className={`head-sc-container head-sc-container${sizeClass} ${directionClass}`} >
-            <div className={`head-sc-img head-sc-img${sizeClass}`} style={{backgroundImage: `url(${dataHeads[index].imgUrl})`}} key={index} onClick={clickEvent}> </div>
+            {order===2 ? <a style={{display:"block"}} href={link}> {imgDiv} </a> : <>{imgDiv}</>}
         </motion.div>)
     }
 
@@ -97,7 +100,7 @@ const ScHeadsComponent = () => {
             <div className="heads-sc-pictures">
                 {initHeads(index)}
             </div>
-            <motion.p animate={{opacity: textOpacity}} transition={{ease: "easeIn", duration: 0.1}} className="head-name">{getHeadName()}</motion.p>
+            <motion.p animate={{opacity: textOpacity}} transition={{ease: "easeIn", duration: 0.2}} className="head-name">{getHeadName()}</motion.p>
             <motion.p animate={{opacity: textOpacity}}  className="head-title">{getHeadTitle()}</motion.p>
 
         </section>

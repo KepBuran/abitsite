@@ -7,7 +7,7 @@ import head2Img from '../assets/img/studentCouncilPage/head2.jpg';
 import head3Img from '../assets/img/studentCouncilPage/head3.jpg';
 import head4Img from '../assets/img/studentCouncilPage/head4.jpg';
 import head5Img from '../assets/img/studentCouncilPage/head5.jpg';
-import BackgroundImg from "../assets/img/studentCouncilPage/Background.png"
+import BackgroundImg from "../assets/img/studentCouncilPage/Background.svg"
 import SCHeadsComponent from "../components/studentCouncil/SCHeadsComponent";
 import { motion } from 'framer-motion';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/pages/Articles/Articles.css';
 import '../styles/pages/Articles/ArticleBackground.css';
 
-import BackgroundImg from "../assets/img/articlesPage/Background.png";
+import BackgroundImg from "../assets/img/articlesPage/Background.svg";
 import ArticlesComponent from "../components/articles/ArticlesComponent";
 import { motion } from 'framer-motion';
 

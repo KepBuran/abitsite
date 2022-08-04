@@ -3,7 +3,7 @@ import SliderComponent from "../components/slider/SliderComponent";
 import '../styles/pages/SuperHeroes.css'
 import dataSliderSuperHeroes from "../data/dataSliderSuperHeroes";
 import SuperHeroesComponent from "../components/superHeroes/SuperHeroesComponent";
-import BackgroundImg from "../assets/img/superHeroesPage/Background.png"
+import BackgroundImg from "../assets/img/superHeroesPage/Background.svg"
 import { motion } from 'framer-motion';
 
 const SuperHeroesPage = () => {

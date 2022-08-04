@@ -8,7 +8,7 @@ import './assets/fonts/BebasNeuePro/stylesheet.css';
 import NavbarComponent from "./components/NavbarComponent";
 import MainPage from "./pages/MainPage";
 import FooterComponent from "./components/FooterComponent";
-import BackgroundImg from './assets/img/mainPage/Background.png';
+import BackgroundImg from './assets/img/mainPage/Background.svg';
 import ArticlesPage from "./pages/ArticlesPage";
 import {Paths} from "./config/Paths";
 import EduProgramPage from "./pages/EduProgramPage";
