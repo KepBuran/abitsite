@@ -26,7 +26,8 @@ nav li {
 nav img{
     height: 100%;
     vertical-align:middle;
-    margin-right: 150px;
+    /*margin-right: 150px;*/
+    margin-right: 8vw;
 }
 
 nav li.header-text {

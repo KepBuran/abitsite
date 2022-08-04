@@ -1,0 +1,39 @@
+main.sc-page {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: fill;
+}
+
+.about-sc {
+    display: inline-block;
+    margin: 0 5% 5% 5%;
+    width: 90%;
+    height: 600px;
+}
+
+.about-sc-text {
+    width: 45%;
+    float: left;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.about-sc-image {
+    border-radius: 20px;
+    height: 600px;
+    width: 50%;
+    float: right;
+    background-color: #fdd200;
+    box-shadow: -9px 9px 4px rgba(0, 0, 0, 0.25);
+    background-size: 100%;
+}
+
+.gallery {
+    height: 1000px;
+}
+
+
+

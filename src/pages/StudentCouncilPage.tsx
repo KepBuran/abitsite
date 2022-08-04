@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/pages/StudentCouncil.css';
+import '../styles/pages/StudentCouncil/StudentCouncil.css';
 import aboutSCImg from '../assets/img/studentCouncilPage/aboutSC.jpg';
 
 import head1Img from '../assets/img/studentCouncilPage/head1.jpg';
