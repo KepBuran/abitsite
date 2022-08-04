@@ -1,13 +1,7 @@
 import React from 'react';
-import dataArticles from "../data/dataArticles";
+import '../styles/pages/Articles/Articles.css';
+import '../styles/pages/Articles/ArticleBackground.css';
 
-import articleStartImg from "../assets/img/articlesPage/background/articleStart.png";
-import articleRightImg from "../assets/img/articlesPage/background/articleRight.png";
-import articleLeftImg from "../assets/img/articlesPage/background/articleLeft.png";
-import articleRightEndImg from "../assets/img/articlesPage/background/articleEndRight.png";
-import articleLeftEndImg from "../assets/img/articlesPage/background/articleEndLeft.png";
-
-import '../styles/pages/Articles.css';
 import BackgroundImg from "../assets/img/articlesPage/Background.png";
 import ArticlesComponent from "../components/articles/ArticlesComponent";
 import { motion } from 'framer-motion';
@@ -18,6 +12,7 @@ const ArticlesPage = () => {
 
     return (
         <main className="articles-page" style={{backgroundImage: `url(${BackgroundImg})`}}>
+            <h1>СТАТТІ</h1>
             <ArticlesComponent></ArticlesComponent>
         </main>
     );

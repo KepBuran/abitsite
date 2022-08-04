@@ -41,6 +41,46 @@ const dataArticles = [
         title:"124 Cистемний аналіз",
         imgUrl: Article1,
         url: "https://www.hashtap.com/p/o6lr1v76zale"
+    },
+    {
+        title:"124 Cистемний аналіз",
+        imgUrl: Article1,
+        url: "https://www.hashtap.com/p/o6lr1v76zale"
+    },
+    {
+        title:"124 Cистемний аналіз",
+        imgUrl: Article1,
+        url: "https://www.hashtap.com/p/o6lr1v76zale"
+    },
+    {
+        title:"124 Cистемний аналіз",
+        imgUrl: Article1,
+        url: "https://www.hashtap.com/p/o6lr1v76zale"
+    },
+    {
+        title:"124 Cистемний аналіз",
+        imgUrl: Article1,
+        url: "https://www.hashtap.com/p/o6lr1v76zale"
+    },
+    {
+        title:"124 Cистемний аналіз",
+        imgUrl: Article1,
+        url: "https://www.hashtap.com/p/o6lr1v76zale"
+    },
+    {
+        title:"124 Cистемний аналіз",
+        imgUrl: Article1,
+        url: "https://www.hashtap.com/p/o6lr1v76zale"
+    },
+    {
+        title:"124 Cистемний аналіз",
+        imgUrl: Article1,
+        url: "https://www.hashtap.com/p/o6lr1v76zale"
+    },
+    {
+        title:"124 Cистемний аналіз",
+        imgUrl: Article1,
+        url: "https://www.hashtap.com/p/o6lr1v76zale"
     }
 
 
